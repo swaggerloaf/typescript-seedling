@@ -1,9 +1,8 @@
 {
   "rulesDirectory": [
-    "node_modules/tslint-eslint-rules/dist/rules"
   ],
   "rules": {
-    "file-header": [true, "Copyright Google Inc\\."],
+    "file-header": [true,  "Swaggerloaf was here\\."],
     //"no-console": [true, "log"],
     "no-duplicate-imports": true,
     "no-duplicate-variable": true,
