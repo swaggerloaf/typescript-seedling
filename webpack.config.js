@@ -18,7 +18,7 @@ module.exports = {
   mode: "development",
 
   // starting point
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   output: {
     path: path.join(__dirname, "./dist"),
     filename: "bundle.js",
@@ -29,7 +29,8 @@ module.exports = {
     rules: [{
       test: /\.ts$/,
       loader: 'awesome-typescript-loader',
-      exclude: /node_modules/
+      include: '/src',
+      exclude: '/node_modules/'
     },
     {
       test: /\.css$/,
