@@ -1,9 +1,7 @@
 {
-  "rulesDirectory": [
-  ],
+  "rulesDirectory": [],
   "rules": {
-    "file-header": [true,  "Swaggerloaf was here\\."],
-    //"no-console": [true, "log"],
+    "no-console": [false, "log"],
     "no-duplicate-imports": true,
     "no-duplicate-variable": true,
     "no-jasmine-focus": true,
@@ -16,7 +14,7 @@
   },
   "jsRules": {
     "file-header": [true, "Swaggerload was here\\."],
-    //"no-console": [true, "log"],
+    "no-console": [false, "log"],
     "no-duplicate-imports": true,
     "no-duplicate-variable": true,
     "no-jasmine-focus": true,
