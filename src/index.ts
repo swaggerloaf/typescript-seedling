@@ -1,1 +1,2 @@
-console.log('nice');
+let message = 'frank';
+console.log(message);
