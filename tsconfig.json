@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2020",
     "outDir": "js",
     "strict": true,
     "module": "commonjs",
@@ -10,7 +10,7 @@
     "experimentalDecorators": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
-    "lib": ["es2017", "dom"]
+    "lib": ["es2020", "dom"]
   },
   "files": ["src/index.ts"]
 }

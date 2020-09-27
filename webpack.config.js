@@ -15,7 +15,7 @@ const publicUrl = '';
 
 module.exports = {
   mode: 'development',
-
+  devtool: 'inline-source-map',
   // starting point
   entry: './src/index.ts',
   output: {
@@ -28,13 +28,13 @@ module.exports = {
     rules: [
       {
         test: /\.ts$/,
-        loader: 'awesome-typescript-loader',
-        include: '/src',
-        exclude: '/node_modules/'
+        loader: 'ts-loader'
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ['style-loader', 'css-loader'],
+        include: '/src',
+        exclude: '/node_modules/'
       },
       {
         test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,
